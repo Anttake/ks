@@ -1,0 +1,68 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+h5 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+div {
+    background-color: white;
+    border-radius: 5px;
+    padding: 40px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+button, a {
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 5px 0;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover, a:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    
+    div {
+        padding: 15px;
+    }
+}
